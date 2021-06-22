@@ -62,3 +62,25 @@ header{
     border: 1px solid salmon;
 
 }
+
+footer{
+    background-color: #3a546d;
+}
+
+.footer-element{
+    height: 200px;
+    border: 1px solid wheat;
+}
+
+.footer-bottom{
+    margin-top: 50px;
+    height: 100px;
+    background-color: #2c3e50;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom h5{
+    color: white;
+}
