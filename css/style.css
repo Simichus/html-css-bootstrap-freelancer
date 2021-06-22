@@ -24,6 +24,10 @@
     background-color: #ccb2a3;
 }
 
+.bg-green{
+    background-color: #1abc9c;
+}
+
 /* Body */
 
 header{
@@ -33,11 +37,28 @@ header{
 
 #jumbotrone{
     height: 500px;
-    background-color: #1abc9c;
+    margin-bottom: 100px;
+}
+
+#portfolio{
     margin-bottom: 100px;
 }
 
 .portfolio-img{
     height: 300px;
     border-radius: 20px;
+}
+
+.download-button{
+    width: 200px;
+    height: 50px;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+.contact{
+    margin: 50px auto;
+    height: 500px;
+    border: 1px solid salmon;
+
 }
