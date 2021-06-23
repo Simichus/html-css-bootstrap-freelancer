@@ -28,6 +28,10 @@
     background-color: #1abc9c;
 }
 
+img{
+    width: 100%;
+}
+
 /* Body */
 
 header{
@@ -35,10 +39,18 @@ header{
 }
 
 #jumbotrone{
-    height: 500px;
     margin-bottom: 100px;
 }
 
+#jumbotrone img{
+    height: 250px;
+}
+
+#jumbotrone hr{
+    color: none;
+    border: 2px solid white;
+    opacity: 1;
+}
 #portfolio{
     margin-bottom: 100px;
 }
