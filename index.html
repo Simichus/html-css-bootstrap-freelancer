@@ -37,7 +37,7 @@
           </nav>
     </header>
     <main>
-        <div class="container-fluid bg-green text-center text-white py-3 mb-5" id="jumbotrone">
+        <div class="container-fluid bg-green text-center text-white py-5 mb-5" id="jumbotrone">
             <img src="./img/avatar.svg" alt="">
             <h1 class="text-uppercase my-1">Start Bootstrap</h1>
             <div class="row justify-content-center align-items-center">
@@ -79,8 +79,8 @@
             </div>
         </div>
 
-        <div class="container-fluid bg-green text-white py-3 my-5" id="about">
-            <div class="text-center my-5">
+        <div class="container-fluid bg-green text-white py-5 my-5" id="about">
+            <div class="text-center">
                 <h1 class="text-uppercase my-1">About</h1>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-auto"><hr class="rounded border-white"></div>
@@ -108,8 +108,8 @@
                 </div>
             </div>
 
-        <div class="container my-5 py-3" id="contact-us">
-            <div class="text-center my-5">
+        <div class="container py-5" id="contact-us">
+            <div class="text-center">
                 <h1 class="text-uppercase my-1">Contact us</h1>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-auto"><hr class="rounded border-dark"></div>
@@ -117,7 +117,7 @@
                     <div class="col-auto"><hr class="rounded border-dark"></div>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mt-3">
                 <form class="col-10 offset-1 col-sm-10 offset-sm-0 col-lg-8">
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
@@ -133,7 +133,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="7"></textarea>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
                       </div>
                     <button type="submit" class="btn bg-green text-white">Send</button>
                 </form>
@@ -142,24 +142,38 @@
     </main>
 
     <footer>
-        <div class="footer-top container-fluid">
+        <div class="container-fluid text-white py-5" id="footer-top">
             <div class="container">
-                <div class="row g-4">
+                <div class="row g-4 text-center">
                     <div class="col-12 col-sm-4">
-                        <div class="footer-element"></div>
+                        <address class="footer-element">
+                            <h3 class="text-uppercase">Location</h3>
+                            <div>2215 John Daniel Drive Clark, MO 54243</div>
+                        </address>
                     </div>
                     <div class="col-12 col-sm-4">
-                        <div class="footer-element"></div>
+                        <div class="footer-element">
+                            <h3 class="text-uppercase">Around the Web</h3>
+                            <div class="d-flex justify-content-center">
+                                <i class="fab fa-facebook-f border border-white rounded-circle d-flex justify-content-center align-items-center mx-1"></i>                                 
+                                <i class="fab fa-google-plus-g border border-white rounded-circle d-flex justify-content-center align-items-center mx-1"></i>                                 
+                                <i class="fab fa-twitter border border-white rounded-circle d-flex justify-content-center align-items-center mx-1"></i>                                 
+                                <i class="fab fa-linkedin-in border border-white rounded-circle d-flex justify-content-center align-items-center mx-1"></i>                                 
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-sm-4">
-                        <div class="footer-element"></div>
+                        <div class="footer-element">
+                            <h3 class="text-uppercase">About Freelancer</h3>
+                            <div>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="footer-bottom container-fluid d-flex">
-            <h5>Copyright</h5>
+        <div class="container-fluid d-flex justify-content-center align-items-center text-white py-5" id="footer-bottom">
+            <h5>Copyright <i class="far fa-copyright"></i> Classe studenti #38</h5>
         </div>
             
         </footer>
