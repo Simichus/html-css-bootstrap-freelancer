@@ -43,6 +43,7 @@ header{
 }
 
 hr{
+    width: 200px;
     color: none;
     border: 2px solid;
     opacity: 1;
@@ -52,19 +53,6 @@ hr{
     border-radius: 20px;
 }
 
-.download-button{
-    width: 200px;
-    height: 50px;
-    margin: 15px auto;
-    border-radius: 15px;
-}
-
-.contact{
-    margin: 50px auto;
-    height: 500px;
-    border: 1px solid salmon;
-
-}
 
 footer{
     background-color: #3a546d;
